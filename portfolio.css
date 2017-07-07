@@ -25,7 +25,7 @@ time, mark, audio, video {
 
 .banner {
     height: 20%;
-    background-color: black;
+    background-color: #424141;
     font-size: 100px;
     color: white;
     text-align: center;
@@ -35,4 +35,28 @@ time, mark, audio, video {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #292928;
+}
+
+.nav li {
+    display: inline;
+    font-size: 2em;
+    padding-right: 30px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:active {
+    color: black;
+    background-color: white;
 }
