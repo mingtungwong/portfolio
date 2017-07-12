@@ -3,6 +3,9 @@
     <head>
         <link rel="stylesheet" type="text/css" href="portfolio.css">
         <script src="scripts.js"></script>
+        <script type="text/javascript">
+            window.onload = setup;
+        </script>
     </head>
     <body>
         <header>
@@ -11,13 +14,16 @@
             </div>
             <div class="nav">
                 <ul>
-                    <li class="active_menu" id="menu_home" onclick="changeActive(this)"><a href="#">Home</a></li>
+                    <li id="menu_home" onclick="changeActive(this)"><a href="#">Home</a></li>
                     <li id="menu_skills" onclick="changeActive(this)"><a href="#">Skills</a></li>
                     <li id="menu_projects" onclick="changeActive(this)"><a href="#">Projects</a></li>
                     <li id="menu_contact" onclick="changeActive(this)"><a href="#">Contact</a></li>
                 </ul>
             </div>
         </header>
+        <div class=page id="home">
+            <p>Welcome to my home</p>
+        </div>
         <div class="page" id="skills">
             <h3>Web Development</h3>
             <ul>
