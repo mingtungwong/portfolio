@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="portfolio.css">
+        <script src="scripts.js"></script>
     </head>
     <body>
         <header>
@@ -11,10 +12,10 @@
                 </div>
                 <div class="nav">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li class="active_menu" id="home" onclick="changeActive(this)"><a href="#">Home</a></li>
+                        <li id="skills" onclick="changeActive(this)"><a href="#">Skills</a></li>
+                        <li id="projects" onclick="changeActive(this)"><a href="#">Projects</a></li>
+                        <li id="contact" onclick="changeActive(this)"><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>

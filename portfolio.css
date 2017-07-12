@@ -48,7 +48,8 @@ time, mark, audio, video {
 .nav li {
     display: inline;
     font-size: 2em;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .nav a {
@@ -56,7 +57,10 @@ time, mark, audio, video {
     text-decoration: none;
 }
 
-.nav a:active {
-    color: black;
+.active_menu {
     background-color: white;
+}
+
+.active_menu a {
+    color: black;
 }
