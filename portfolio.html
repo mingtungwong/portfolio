@@ -6,22 +6,48 @@
     </head>
     <body>
         <header>
-            <div class="container">
-                <div class="banner">
-                    <p class="banner-text">Portfolio</p>
-                </div>
-                <div class="nav">
-                    <ul>
-                        <li class="active_menu"onclick="changeActive(this)"><a href="#">Home</a></li>
-                        <li onclick="changeActive(this)"><a href="#">Skills</a></li>
-                        <li onclick="changeActive(this)"><a href="#">Projects</a></li>
-                        <li onclick="changeActive(this)"><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="">
-                </div>
+            <div class="banner">
+                <p class="banner-text">Portfolio</p>
             </div>
-
+            <div class="nav">
+                <ul>
+                    <li class="active_menu" id="menu_home" onclick="changeActive(this)"><a href="#">Home</a></li>
+                    <li id="menu_skills" onclick="changeActive(this)"><a href="#">Skills</a></li>
+                    <li id="menu_projects" onclick="changeActive(this)"><a href="#">Projects</a></li>
+                    <li id="menu_contact" onclick="changeActive(this)"><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </header>
+        <div class="page" id="skills">
+            <h3>Web Development</h3>
+            <ul>
+                <li>Javascript(ES6)</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>React/Redux</li>
+                </li>Webpack</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Sequelize</li>
+                <li>Socket.io</li>
+                <li>Passport.js</li>
+                <li>PostgreSQL</li>
+                <li>REST</li>
+            </ul>
+            <h3>Version Control</h3>
+            <ul>
+                <li>Git</li>
+                <li>Github</li>
+            </ul>
+            <h3>TDD</h3>
+            <ul>
+                <li>Mocha</li>
+                <li>Chai</li>
+            </ul>
+            <h3>OOP</h3>
+            <ul>
+                <li>Java</li>
+            </ul>
+        </div>
     </body>
 </html>

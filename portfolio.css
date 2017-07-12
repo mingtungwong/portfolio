@@ -19,13 +19,17 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-.container {
-    height: 100vh;
+html * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body > div {
+    margin-bottom: 50px;
 }
 
 .banner {
-    height: 20%;
+    height: 150px;
     background-color: #424141;
     font-size: 75px;
     color: white;
@@ -38,8 +42,11 @@ time, mark, audio, video {
     transform: translateY(-50%);
 }
 
-.nav ul {
+ul {
     list-style: none;
+}
+
+.nav ul {
     text-align: center;
     padding: 0;
     margin: 0;
@@ -64,4 +71,11 @@ time, mark, audio, video {
 
 .active_menu a {
     color: black;
+}
+
+#skills h3 {
+    text-align: center;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: bold;
 }
