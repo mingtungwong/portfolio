@@ -21,12 +21,13 @@ time, mark, audio, video {
 
 .container {
     height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .banner {
     height: 20%;
     background-color: #424141;
-    font-size: 100px;
+    font-size: 75px;
     color: white;
     text-align: center;
 }
