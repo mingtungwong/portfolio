@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="portfolio.css">
-        <script src="scripts.js"></script>
+        <link rel="stylesheet" type="text/css" href="style/portfolio.css">
+        <script src="scripts/scripts.js"></script>
         <script type="text/javascript">
             window.onload = setup;
         </script>
@@ -10,7 +10,7 @@
     <body>
         <header>
             <div class="banner">
-                <p class="banner-text">Portfolio</p>
+                <p class="banner-text">Ming Tung Wong</p>
             </div>
             <div class="nav">
                 <ul>
@@ -22,7 +22,7 @@
             </div>
         </header>
         <div class=page id="home">
-            <img id="emoji" src="emoji.png"/>
+            <img id="emoji" src="media/emoji.png"/>
             <p>I am a software engineer located in New York. I recently attended Fullstack Academy, a coding bootcamp with a
                 less than eight percent acceptance rate. At Fullstack Academy, I utilized fullstack Javascript to create modern
                 web applications.
@@ -60,7 +60,39 @@
             </ul>
         </div>
         <div class="page" id="projects">
-            <p>Test</p>
+            <h3>Projects</h3>
+            <hr>
+            <div class="project">
+                <h2 class="project_heading">Running Man</h2>
+                <img src="media/running.png"/>
+                <img src="media/running2.png"/>
+                <p class="project_description">
+                    Running Man is a Javascript game built using the Phaser Game Framework. The main focus of the game is the ever changing
+                    gamplay. It starts out as a simple running game but quickly evolves. The art assets were all created by hand using Gimp.
+                </p>
+                <div class="links">
+                    <a href="https://github.com/mingtungwong/runningman">Github</a>
+                    <a href="http://running.myrandomcode.com">Live</a>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h2 class="project_heading">Code Battle</h2>
+                <img src="media/codebattle.png"/>
+                <p class="project_description">
+                    Code Battle is a web application that allows users to practice their coding skills. One of the core aspects of the application
+                    is that users can challenge each other to code battles in real time to see who can complete challenges in the quickest time. User
+                    code is executed on a Docker instance and Socket.io is utilized for real time interactivity.
+                </p>
+                <div class="links">
+                    <a href="https://github.com/FSACodeBattle/GameNight">Github</a>
+                    <a href="http://codebattle.win/">Live</a>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="contact">
+            <h3>Contact Me</h3>
+            <hr>
         </div>
     </body>
 </html>
