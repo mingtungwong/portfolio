@@ -1,14 +1,16 @@
 function changeActive(element) {
+    
     let list = element.parentElement.getElementsByTagName("li");
-    for(let li of list) {
-        li.classList.remove("active_menu");
+    for(let i = 0; i < list.length; i++) {
+        list[i].classList.remove("active_menu");
     }
     element.classList.add("active_menu");
 
     let div = element.id.split("_")[1];
+    
     let pages = document.getElementsByClassName("page");
-    for(let page of pages) {
-        page.style.display = "none";
+    for(let i = 0; i < pages.length; i++) {
+        pages[i].style.display = "none";
     }
     document.getElementById(div).style.display = "block";
 }
