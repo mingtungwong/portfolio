@@ -125,3 +125,24 @@ ul {
 .project {
     margin-bottom: 40px;
 }
+
+.contact_page {
+    margin-top: 20px;
+}
+
+.contact_page img {
+    display: inline;
+    max-width: 48px;
+    max-height: 48px;
+    margin: 20px 20px;
+}
+
+#gmail_img {
+    margin: 0 20px 0 0;
+}
+
+#email_address {
+    position: relative;
+    bottom: 40px;
+    font-size: 20px;
+}
