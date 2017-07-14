@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 
 html * {
-    font-family: Verdana, Geneva, Tahoma, cursive;
+    font-family: Lobster, cursive;
     text-align: center;
 }
 
@@ -45,10 +45,13 @@ img {
     text-align: center;
 }
 
-.banner-text {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+.banner_name {
+    font-size: 50px;
+    padding-top: 15px;
+}
+
+.banner_title {
+    font-size: 35px;
 }
 
 ul {
