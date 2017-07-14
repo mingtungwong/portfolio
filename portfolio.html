@@ -3,9 +3,6 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style/portfolio.css">
         <script src="scripts/scripts.js"></script>
-        <script type="text/javascript">
-            window.onload = setup;
-        </script>
     </head>
     <body>
         <header>
@@ -14,7 +11,7 @@
             </div>
             <div class="nav">
                 <ul>
-                    <li id="menu_home" onclick="changeActive(this)"><a href="#">Home</a></li>
+                    <li id="menu_home" onclick="changeActive(this)" class="active_menu"><a href="#">Home</a></li>
                     <li id="menu_skills" onclick="changeActive(this)"><a href="#">Skills</a></li>
                     <li id="menu_projects" onclick="changeActive(this)"><a href="#">Projects</a></li>
                     <li id="menu_contact" onclick="changeActive(this)"><a href="#">Contact</a></li>
@@ -28,7 +25,7 @@
                 web applications.
             </p>
         </div>
-        <div class="page" id="skills">
+        <div class="page" id="skills" style="display:none">
             <h3>Web Development</h3>
             <ul>
                 <li>Javascript(ES6)</li>
@@ -59,7 +56,7 @@
                 <li>Java</li>
             </ul>
         </div>
-        <div class="page" id="projects">
+        <div class="page" id="projects" style="display:none">
             <h3>Projects</h3>
             <hr>
             <div class="project">
@@ -90,7 +87,7 @@
                 </div>
             </div>
         </div>
-        <div class="page" id="contact">
+        <div class="page" id="contact" style="display:none">
             <h3>Contact Me</h3>
             <hr>
         </div>
