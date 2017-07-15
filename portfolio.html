@@ -92,7 +92,14 @@
             <h3>Contact Me</h3>
             <hr>
             <div class="contact_page">
-                <img src="media/logos/logo_gmail_48px.png" /><span id="email_address">wong.mingt@gmail.com</span>
+                <div class="email_section">
+                    <img src="media/logos/logo_gmail_48px.png" />
+                    <input type="text" id="email_address" value="wong.mingt@gmail.com" readonly/>
+                    <span class="copy">
+                        <button id="copy_button" type="button" onclick="copyClipboard()">Copy</button>
+                        <span id="copy_message">Copied!</span>
+                    </span>
+                </div>
                 <div id="profile_links">
                     <a href="https://www.linkedin.com/in/mingtungwong/" target="_blank"><img src="media/logos/In-2C-48px-R.png"/></a>
                     <a href="https://github.com/mingtungwong" target="_blank"><img src="media/logos/GitHub-Mark-64px.png"/></a>

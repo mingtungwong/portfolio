@@ -138,11 +138,54 @@ ul {
 }
 
 #gmail_img {
-    margin: 0 20px 0 0;
+    margin: 0 10px 0 0;
+}
+
+.email_section {
+    display: inline;
 }
 
 #email_address {
     position: relative;
     bottom: 40px;
     font-size: 20px;
+    margin-top: 0px;
+    width: 220px;
+    border: none;
+}
+
+.copy {
+    position: relative;
+    bottom: 42px;
+}
+
+#copy_message {
+    font-size: 12px;
+    visibility: hidden;
+}
+
+#copy_button {
+    margin-left: 10px;
+    height: 25px;
+    width: 55px;
+    border-color: black;
+    background-color: #eeeeee;
+    border-style: solid;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #bbb;
+    border-radius: 3px;
+    color: #333;
+    font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    padding: 8px 0;
+    text-align: center;
+    text-shadow: 0 1px 0 #eee;
+    outline: none;
+}
+
+#copy_button:hover {
+    background-color: #bfbfbf;
+}
+
+#copy_button:active {
+    bottom: 37px;
 }
