@@ -108,9 +108,14 @@ ul {
 
 .page h3 {
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 25px;
     font-weight: bold;
+}
+.page h4 {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
 }
 
 .project_heading {
