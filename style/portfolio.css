@@ -97,7 +97,7 @@ ul {
     max-height: 128px;
 }
 
-#web_dev_skills img {
+#skills img {
     max-width: 128px;
     max-height: 128px;
 }
@@ -198,5 +198,6 @@ ul {
 }
 
 #copy_button:active {
-    bottom: 37px;
+    position: relative;
+    bottom: 3px;
 }
