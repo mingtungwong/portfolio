@@ -91,6 +91,17 @@ ul {
     margin: 30px auto;
 }
 
+#web_dev_skills > div > img{
+    display: inline;
+    max-width: 128px;
+    max-height: 128px;
+}
+
+#web_dev_skills img {
+    max-width: 128px;
+    max-height: 128px;
+}
+
 #emoji {
     margin-bottom: 20px;
 }
