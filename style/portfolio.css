@@ -123,6 +123,10 @@ ul {
     margin-bottom: 30px;
 }
 
+.links {
+    margin-bottom: 40px;
+}
+
 .links a {
     margin-right: 5px;
     border-radius: 25px;
